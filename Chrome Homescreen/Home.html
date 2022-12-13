@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>HI!</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="title">
+            <h1 data-aos="zoom-in" data-aos-duration="3000">
+                &lt;/Charles&gt;
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="link" data-aos="zoom-in" data-aos-duration="3000"><a href="#top">Home</a></li>
+                |<li class="link" data-aos="zoom-in" data-aos-duration="3000"><a href="#aboutMePage">About Me</a></li>
+                |<li class="link" data-aos="zoom-in" data-aos-duration="3000"><a href="#mySkillsLi" >My Skills</a></li>
+                |<li class="link" data-aos="zoom-in" data-aos-duration="3000"><a href="">My Contact Info</a></li>
+                |<span class="demonicfont"  data-aos="zoom-in" data-aos-duration="3000"><li class="link"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"> d̴͓̣̮̻͈̅o̵̝̗̎̌̃ͅn̷̙̺̞̩̊͝ơ̸̢̻͙͈͔͒̇̈́t̵̤̤̍̍́͘c̷͔̈̀̿͂̈ḹ̶̆̀̕i̸̭̼̣̳͌̎̈́c̵̜̞̝̙̄̈́͑͘k̸̘̱̘̤̐̓̀̊ͅ ψ</a></li></span>
+            </ul>
+        </nav>
+    </div>
+    </header>
+   <div class="title">
+    <br><br id="top"><br>
+        <h2 class="welcomeMessage" data-aos="fade-down" data-aos-duration="3000">Welcome to my personal website!</h2>
+    </div>
+    <div class="paragraph">
+        <p class="intro2" data-aos="fade-down" data-aos-duration="3000">I am glad you decided to visit. Here, you will find all kinds of interesting information about me. Feel free to contact me with any questions or feedback you may have. I hope you enjoy your time here. Thank you for stopping by!</p>
+    </div><br><br id="aboutMePage"><br><br><br><br><br><br>
+    <div>
+        <div id="cardContainer" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
+                <div class="card2" data-aos="fade-up" data-aos-duration="3000">
+                    <div id="aboutMe" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="textBounce" data-aos="fade-up" data-aos-duration="2345">
+                            <div style="--i:1">A</div>
+                            <div style="--i:2">B</div>
+                            <div style="--i:3">O</div>
+                            <div style="--i:4">U</div>
+                            <div style="--i:5">T</div>
+                            &nbsp;
+                            <div style="--i:6">M</div>
+                            <div style="--i:7">E</div>
+                        </div>   
+                        <p data-aos="fade-up" data-aos-duration="2345">Hello! My name is Charles Manuel Diestro, and I am a front-end developer with a passion for creating engaging, user-friendly websites and web applications. I am always looking for new challenges and opportunities to learn and grow as a developer, and I am excited to share my knowledge and expertise with others. Thank you for visiting my website, and please feel free to contact me if you have any questions or need help with a front-end project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br id="mySkillsLi"><br><br><br><br><br><br>
+    <div>
+        <div id="cardContainer_2" data-aos="fade-up" data-aos-duration="3000">
+        <div class="card_2" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card2_2" data-aos="fade-up" data-aos-duration="3000">
+                <div id="mySkills" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="textBounce_2" data-aos="fade-up" data-aos-duration="2345">
+                        <div style="--i:1">M</div>
+                        <div style="--i:2">Y</div>
+                        &nbsp;
+                        <div style="--i:3">S</div>
+                        <div style="--i:4">K</div>
+                        <div style="--i:5">I</div>
+                        <div style="--i:6">L</div>
+                        <div style="--i:7">L</div>
+                        <div style="--i:7">S</div>
+                    </div>     
+                    <p data-aos="fade-up" data-aos-duration="2345">As a front-end developer, my skillset encompasses a thorough understanding of HTML, CSS, and JavaScript. I specialize in creating visually appealing, user-friendly websites, and consistently maintain a strong attention to detail. I am committed to staying current with the latest web development technologies and best practices, and have experience working on a range of projects, from simple landing pages to complex web applications. I am self-motivated, capable of working both independently and in a team setting, and consistently strive to deliver high-quality work in a timely manner. In short, I am a dedicated, experienced front-end developer who is passionate about crafting dynamic and engaging online experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+    <p>Charles Diestro, Copyright &copy;<span id="copyright"> 2022</span></p>
+    </footer>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    //FOOTER
+    // First, select the footer element and save it to a variable
+    const footer = document.querySelector('footer');
+    // Set the footer's initial visibility to hidden
+    footer.style.visibility = 'hidden';
+    // Add an event listener to the window that will be called whenever the user scrolls the page
+    window.addEventListener('scroll', () => {
+    // Get the current scroll position
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    // Get the height of the document
+    const documentHeight = document.body.offsetHeight;
+    // Get the height of the viewport (the part of the page that is visible on the screen)
+    const viewportHeight = window.innerHeight;
+    // If the user has scrolled to the very bottom of the page,
+    // make the footer visible
+    if (scrollTop + viewportHeight >= documentHeight) {
+    footer.style.visibility = 'visible';
+    } else {
+    // Otherwise, hide the footer
+    footer.style.visibility = 'hidden';
+    }
+    });
+  </script>
+</html>

@@ -1,0 +1,330 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header{
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #35424a;
+    color: #e8e6f0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: whitesmoke 5px solid;
+    background-image: url(imageedit_5_5887951345.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.header1{
+    font-size: 33px;
+}
+
+header a{
+    color: #e8e6f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .5s;
+}
+
+nav ul:hover li a{
+    filter: blur(2px);
+}
+
+nav ul:hover li a:hover{
+    filter: blur(0px);
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    transition: .5s;
+}
+
+header .title{
+    float: left;
+    opacity: 500%;
+}
+
+header .title h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 9px;
+}
+
+header .highlight, header .link a{
+    color: whitesmoke ;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: cyan;
+    font-weight: bold;
+}
+
+header .demonicfont a:hover{
+    color: #da261b;
+    font-weight: bold;
+}
+
+/* Body */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkslategrey;
+    background-image: url("imageedit_3_6202895464.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.title{
+    text-align: center;
+    z-index: -1;
+}
+
+.welcomeMessage{
+    padding-top: 33px;
+}
+
+.title h2{
+    margin-top: 123px;
+    color: whitesmoke;
+    font-size: 69px;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.paragraph p{
+    color: whitesmoke;
+    font-size: 33px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+#aboutMePage{
+    position: flex;
+}
+
+#aboutMe{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.textBounce{
+    padding-top: 36px;
+    color: whitesmoke;
+    font-size: 43px;
+    text-align: center;
+    display: flex;
+    font-weight: 999;
+    justify-content: center;
+    
+}
+
+.textBounce > div{
+    animation: bounce 2s ease-in-out alternate infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes bounce {
+    to{
+        transform: translateY(2rem);
+    }
+}
+
+#aboutMe h2{
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 33px;
+    text-align: center;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#aboutMe p{
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 33px;
+    padding-right: 33px;
+    line-height: 1.5;
+    padding-top: 18px;
+}
+
+#cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.card {
+    width: 1133px;
+    height: 345px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+   
+.card2 {
+    width: 1100px;
+    height: 333px;
+    background-color: #003341;
+    border-radius: 20px;
+    transition: all .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
+#mySkills p{
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 33px;
+    padding-right: 33px;
+    line-height: 1.5;
+    padding-top: 18px;
+}
+
+.textBounce_2{
+    padding-top: 0px;
+    color: whitesmoke;
+    font-size: 43px;
+    text-align: center;
+    display: flex;
+    font-weight: 999;
+    justify-content: center;
+    
+}
+
+.textBounce_2 > div{
+    animation: bounce 2s ease-in-out alternate infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes bounce {
+    to{
+        transform: translateY(2rem);
+    }
+}
+
+#cardContainer_2{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.card_2 {
+    width: 1133px;
+    height: 456px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+   
+.card2_2 {
+    width: 1100px;
+    height: 444px;
+    background-color: #003341;
+    border-radius: 20px;
+    transition: all .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+   
+.card2_2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+   
+.card_2:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color:#e8e6f0;
+    background-color:#35424a;
+    text-align: center;
+    border-top: white 3px solid;
+    background-image: url(imageedit_5_5887951344.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    visibility: hidden;
+  }
+
+  #copyright{
+      color: cyan;
+      font-weight:bold;
+  }
